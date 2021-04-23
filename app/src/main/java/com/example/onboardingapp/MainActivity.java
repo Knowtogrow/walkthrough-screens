@@ -63,19 +63,19 @@ public class MainActivity extends AppCompatActivity {
         List<OnboardingItem> onboardingItems = new ArrayList<>();
 
         OnboardingItem itemAptitudeTest = new OnboardingItem();
-        itemAptitudeTest.setTitle("Aptitude Test");
+        itemAptitudeTest.setTitle("                  Aptitude Test");
         itemAptitudeTest.setDescrption("jnkclnwlkdwldmlwmdlkwnfklsnclmsld");
-        itemAptitudeTest.setImage(R.drawable.aptitude_test_removebg_preview);
+        itemAptitudeTest.setImage(R.drawable.apt);
 
         OnboardingItem itemPredictor = new OnboardingItem();
-        itemPredictor.setTitle("Predictor");
+        itemPredictor.setTitle("                    Predictor");
         itemPredictor.setDescrption("jnkclnwlkdwldmlwmdlkwnfklsnclmsld");
-        itemPredictor.setImage(R.drawable.predictor_removebg_preview);
+        itemPredictor.setImage(R.drawable.pd);
 
         OnboardingItem itemAskTheExpert = new OnboardingItem();
-        itemAskTheExpert.setTitle("Ask The Expert");
+        itemAskTheExpert.setTitle("                Ask The Expert");
         itemAskTheExpert.setDescrption("jnkclnwlkdwldmlwmdlkwnfklsnclmsld");
-        itemAskTheExpert.setImage(R.drawable.ask_expert_removebg_preview);
+        itemAskTheExpert.setImage(R.drawable.unknown);
 
         onboardingItems.add(itemAptitudeTest);
         onboardingItems.add(itemPredictor);
